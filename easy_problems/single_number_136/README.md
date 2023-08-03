@@ -13,7 +13,7 @@ You must implement a solution with a linear runtime complexity and use only cons
 **Example:**
 
 ```
-**Input:** nums = [2, 2, 1]
-**Output:** 1
-**Explanation:** 1 is the only number in the nums array that only appeared once, so return 1
+Input: nums = [2, 2, 1]
+Output: 1
+Explanation: 1 is the only number in the nums array that only appeared once, so return 1
 ```
