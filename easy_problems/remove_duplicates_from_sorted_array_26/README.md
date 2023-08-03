@@ -1,4 +1,4 @@
-# 136. Remove Duplicates from Sorted Array
+# 26. Remove Duplicates from Sorted Array
 
 - Link: https://leetcode.com/problems/single-number/
 - Submission Detail: https://leetcode.com/submissions/detail/1009657989/
