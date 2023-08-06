@@ -18,7 +18,6 @@ Return an integer denoting your account balance after making a purchase worth `p
 
 **Note**: `0` is considered to be a multiple of `10` in this problem.
 
-{' '}
 **Example 1**:
 
 ```
