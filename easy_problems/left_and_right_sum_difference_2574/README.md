@@ -1,8 +1,8 @@
 # 2574. Left and Right Differences
 
-- Link: https://leetcode.com/problems/running-sum-of-1d-array/
-- Submission Detail: https://leetcode.com/submissions/detail/1016393976/
-- Date Solved: Aug. 9, 2023
+- Link: https://leetcode.com/problems/left-and-right-sum-differences/
+- Submission Detail: https://leetcode.com/submissions/detail/1017850297/
+- Date Solved: Aug. 10, 2023
 
 # Description
 
@@ -10,7 +10,8 @@ Given a **0-indexed** integer array `nums`, find a 0-indexed integer array `answ
 
 - `answer.length == nums.length`.
 - `answer[i] = |leftSum[i] - rightSum[i]|`.
-  Where:
+
+Where:
 
 `leftSum[i]` is the sum of elements to the left of the index `i` in the array `nums`. If there is no such element, `leftSum[i] = 0`.
 `rightSum[i]` is the sum of elements to the right of the index `i` in the array `nums`. If there is no such element, `rightSum[i] = 0`.
