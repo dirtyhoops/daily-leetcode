@@ -1,7 +1,7 @@
 # 2553. Separate the Digits in an Array
 
 - Link: https://leetcode.com/problems/separate-the-digits-in-an-array/
-- Submission Detail: https://leetcode.com/submissions/detail/1020428060/
+- Submission Detail: https://leetcode.com/submissions/detail/1020455455/
 - Date Solved: Aug. 13, 2023
 
 # Description
