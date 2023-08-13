@@ -3,6 +3,21 @@
  * @return {number[]}
  */
 
+// Solution #3
+var separateDigits = function (nums) {
+  let answer = [];
+  nums.reverse();
+
+  for (let i = 0; i < nums.length; i++) {
+    while (nums[i] !== 0) {
+      answer.push(nums[i] % 10);
+      nums[i] = Math.trunc(nums[i] / 10);
+    }
+  }
+
+  return answer.reverse();
+};
+
 // Solution #2
 var separateDigits = function (nums) {
   const answer = [];
