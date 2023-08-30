@@ -33,7 +33,7 @@ Output: 0
 Explanation: There are no pairs with an absolute difference of 3.
 ```
 
-**Example 2**:
+**Example 3**:
 
 ```
 Input: nums = [3,2,1,5,4], k = 2

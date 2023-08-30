@@ -32,7 +32,7 @@ Input: s = "loveleetcode"
 Output: 2
 ```
 
-**Example 2**:
+**Example 3**:
 
 ```
 Input: s = "aabb"

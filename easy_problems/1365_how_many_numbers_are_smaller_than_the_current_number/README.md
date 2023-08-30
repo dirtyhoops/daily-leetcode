@@ -30,7 +30,7 @@ Input: nums = [6,5,4,8]
 Output: [2,1,0,3]
 ```
 
-**Example 2**:
+**Example 3**:
 
 ```
 Input: nums = [7,7,7,7]

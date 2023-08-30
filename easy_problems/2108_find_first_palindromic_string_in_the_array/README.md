@@ -26,7 +26,7 @@ Output: "racecar"
 Explanation: The first and only string that is palindromic is "racecar".
 ```
 
-**Example 2**:
+**Example 3**:
 
 ```
 Input: words = ["def","ghi"]

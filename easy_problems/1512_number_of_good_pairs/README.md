@@ -26,7 +26,7 @@ Output: 6
 Explanation: Each pair in the array are good.
 ```
 
-**Example 2**:
+**Example 3**:
 
 ```
 Input: nums = [1,2,3]
