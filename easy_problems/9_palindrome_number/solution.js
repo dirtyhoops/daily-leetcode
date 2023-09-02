@@ -22,7 +22,7 @@ function getReverse(num) {
   return reversedNum;
 }
 
-// // Solution 2
+// Solution 2
 var isPalindrome = function (x) {
   let rev = x.toString().split('').reverse().join('');
 
