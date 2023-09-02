@@ -9,19 +9,23 @@ var isValid = function (s) {
     '}': '{'
   };
 
-  const arr = [];
+  const stack = [];
 
-  for (let char of s) {
-    if (char === '(' || char === '{' || char === '[') {
-      arr.push(char);
+  for (const char of s) {
+    const counterpart = pairs[char];
+
+    // Check if it's not in the obj/map
+    if (counterpart == null) {
+      stack.push(char);
     } else {
-      if (arr[arr.length - 1] === pairs[char]) {
-        arr.pop();
+      // Check if it's a valid pair
+      if (stack[stack.length - 1] === pairs[char]) {
+        stack.pop();
       } else {
         return false;
       }
     }
   }
 
-  return arr.length === 0 ? true : false;
+  return stack.length === 0;
 };
