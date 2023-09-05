@@ -4,7 +4,7 @@
  * @return {number}
  */
 
-// Same as solution 1 but changed the sum1 === sum2 to diff === 0
+// Same as solution 1 but changed the sum1 === sum2 to diff ===
 var countSymmetricIntegers = function (low, high) {
   let count = 0;
 
