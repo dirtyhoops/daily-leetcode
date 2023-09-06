@@ -16,8 +16,7 @@ var diagonalPrime = function (nums) {
 };
 
 function isPrime(num) {
-  const sqrt = Math.sqrt(num);
-  for (let i = 2; i <= sqrt; i++) {
+  for (let i = 2; i <= Math.sqrt(num); i++) {
     if (num % i === 0) return false;
   }
 
