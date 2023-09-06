@@ -20,7 +20,7 @@ function isPrime(num) {
     if (num % i === 0) return false;
   }
 
-  return num !== 1;
+  return num > 1;
 }
 
 // Brute Force way of checking if a number is prime
