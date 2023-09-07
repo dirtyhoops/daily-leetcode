@@ -9,7 +9,7 @@ var isAnagram = function (s, t) {
   const freq = {};
 
   for (let char of s) {
-    freq[char] = freq[char] + 1 || 1;
+    freq[char] = (freq[char] || 0) + 1;
   }
 
   for (let char of t) {
