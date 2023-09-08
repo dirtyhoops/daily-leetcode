@@ -13,7 +13,7 @@ var isAnagram = function (s, t) {
   }
 
   for (let char of t) {
-    if (freq[char] === 0 || !freq[char]) return false;
+    if (!freq[char]) return false;
     freq[char]--;
   }
 
