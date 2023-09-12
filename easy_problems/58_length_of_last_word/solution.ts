@@ -1,3 +1,23 @@
+// Solution #4: Basically same idea as solution #3 but cleaner
+function lengthOfLastWord(s: string): number {
+  let countStarted = false;
+  let len = 0;
+
+  for (let i = s.length - 1; i >= 0; i--) {
+    if (s[i] !== ' ') {
+      countStarted = true;
+      ++len;
+      continue;
+    }
+
+    if (countStarted) {
+      break;
+    }
+  }
+
+  return len;
+}
+
 // Solution #3: Without built-in functions
 function lengthOfLastWord(s: string): number {
   let countStarted = false;
