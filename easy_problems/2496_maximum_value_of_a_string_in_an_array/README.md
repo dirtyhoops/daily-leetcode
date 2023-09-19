@@ -1,7 +1,7 @@
 # 2496. Maximum Value of a String in an Array
 
 - Link: https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/
-- Submission Detail: https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/submissions/1053903740/
+- Submission Detail: https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/submissions/1053906149/
 - Date Solved: Sept. 19, 2023
 
 # Description

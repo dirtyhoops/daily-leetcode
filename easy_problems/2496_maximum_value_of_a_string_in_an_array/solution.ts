@@ -9,6 +9,6 @@ function maximumValue(strs: string[]): number {
 }
 
 // Checks if string are all numerics
-function isNumeric(value: string) {
-  return /^-?\d+$/.test(value);
+function isNumeric(str: string): boolean {
+  return /^-?\d+$/.test(str);
 }
