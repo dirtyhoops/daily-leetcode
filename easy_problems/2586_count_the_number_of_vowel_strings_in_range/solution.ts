@@ -1,5 +1,5 @@
 function vowelStrings(words: string[], left: number, right: number): number {
-  const set = new Set<string>(['a', 'e', 'i', 'o', 'u']);
+  const set = new Set<string>('aeiou');
   let vowelStringCount = 0;
 
   for (let i = left; i <= right; i++) {
