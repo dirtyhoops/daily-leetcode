@@ -3,9 +3,8 @@
  * @return {number}
  */
 
+// Solution #1: Using Frequency;
 var singleNumber = function (nums) {
-  if (nums.length === 1) return nums[0];
-
   const map = {};
 
   for (let num of nums) {
